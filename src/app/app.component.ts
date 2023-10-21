@@ -7,9 +7,19 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [CommonModule, RouterOutlet],
   template: `
-    <router-outlet></router-outlet>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
   `,
-  styles: [],
+  styles: [
+    `
+      main {
+        height: 100%;
+        width: 100%;
+        background: lightyellow;
+      }
+    `
+  ],
 })
 export class AppComponent {
   title = 'DemGenTool';
