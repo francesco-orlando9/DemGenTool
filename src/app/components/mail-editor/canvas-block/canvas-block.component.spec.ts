@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PropertiesPanelComponent } from './properties-panel.component';
+import { CanvasBlockComponent } from './canvas-block.component';
 
-describe('PropertiesPanelComponent', () => {
-  let component: PropertiesPanelComponent;
-  let fixture: ComponentFixture<PropertiesPanelComponent>;
+describe('CanvasBlockComponent', () => {
+  let component: CanvasBlockComponent;
+  let fixture: ComponentFixture<CanvasBlockComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PropertiesPanelComponent]
+      imports: [CanvasBlockComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(PropertiesPanelComponent);
+    fixture = TestBed.createComponent(CanvasBlockComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
